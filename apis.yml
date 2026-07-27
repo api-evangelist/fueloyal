@@ -1,7 +1,13 @@
 aid: fueloyal
 name: Fueloyal
-description: Fueloyal is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Fueloyal is an automotive IoT and connected-vehicle platform company that
+  builds proprietary IoT gateway hardware and software for fleet management, fuel
+  management, predictive maintenance, dual dash cameras, EV services, and OEM connected-vehicle
+  solutions. Its products help fleets and vehicle manufacturers monitor, connect,
+  and service vehicles, with an OEM connected-platform and marketplace for delivering
+  connected-vehicle services and mobile apps. Backed by Techstars, Fueloyal was added
+  to the API Evangelist network as a company profile; no public developer portal,
+  API documentation, or machine-readable API specification was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/fueloyal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,31 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.fueloyal.com/wp-content/uploads/2020/10/social_share_home.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fleet Management
+- Connected Vehicles
+- IoT
+- Automotive
+- Fuel Management
+- Telematics
+- Predictive Maintenance
+- Electric Vehicles
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fueloyal-domain-security.yml
 - type: Website
   url: https://fueloyal.com/
+- type: Blog
+  url: https://www.fueloyal.com/blog/
+- type: Support
+  url: https://www.fueloyal.com/support/
+- type: Pricing
+  url: https://www.fueloyal.com/pricing/
+- type: TermsOfService
+  url: https://www.fueloyal.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.fueloyal.com/privacy-policy/
+- type: SignUp
+  url: https://www.fueloyal.com/app/create/
+- type: Login
+  url: https://www.fueloyal.com/app/login/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/fueloyal/
+- type: Twitter
+  url: https://twitter.com/fueloyal
+- type: Facebook
+  url: https://www.facebook.com/FueloyalInc/
+- type: YouTube
+  url: https://www.youtube.com/channel/UCuTYyXkncNQce5w732w5psA
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
